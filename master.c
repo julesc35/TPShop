@@ -4,23 +4,21 @@
 int choix;
 int argent = 30;
 
-char *achetable[] = {
-"biere",
-"eau",
-"gateau",
-"épée",
-"bouclier",
-"casque",
-"armure",
-"potion",
-};
+//initialisation de la liste d'objets achetable
 
-int achat (){
-
+struct Achetable{
+	char NomItem;
+	int PrixItem;
 }
-int vente() {
 
-}
+Achetable ListeAchetable [20] 
+ListeAchetable[0]{"Epée",100"\n"};
+ListeAchetable[1]{"Armure",250"\n"};
+ListeAchetable[2]{"Os",5"\n"};
+ListeAchetable[3]{"Biere",2"\n"};
+ListeAchetable[4]{"entre-cote",10"\n"};
+ListeAchetable[5]{"épée",100"\n"};
+ListeAchetable[6]{"épée",100"\n"};
 
 int main(){
 
