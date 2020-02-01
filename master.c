@@ -66,5 +66,4 @@ if (choix == 3){
 	printf("%d""%s""%d""\n", inventaire);
 	return choix;
 }
-
 return 0;} 
