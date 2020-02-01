@@ -30,6 +30,7 @@ struct Inventaire{
 	char Nom;
 	int Prix;
 }
+
 Inventaire inventaire [20]
 inventaire[0]{1,"Tasse",2};
 inventaire[1]{2,"Epee Rouillee",15};
@@ -59,3 +60,11 @@ if (choix == 2){
 	scand("%d", inventaire.numero);
 return choix;
 }
+
+if (choix == 3){
+	printf("voici votre inventaire\n");
+	printf("%d""%s""%d""\n", inventaire);
+	return choix;
+}
+
+return 0;} 
